@@ -1,0 +1,154 @@
+@media  screen and (max-width: 1084px){
+  #page{
+    width:100% ;
+    margin: auto;
+  }
+}
+/*-----------------------*/
+
+
+ @media  screen and (max-width: 980px){
+  #nav ul li:nth-child(7)  {
+   display: none;
+ }
+ #nav ul li:last-child{
+   display: block ;
+ }
+}
+/*-----------------------*/
+@media  screen and (max-width: 952px){
+ #nav ul li:nth-child(6)  {
+  display: none;
+}
+
+#nav ul li:last-child{
+  display: block ;
+}
+}
+/*-----------------------*/
+@media  screen and (max-width: 895px){
+ .one {
+  display: none !important;
+}
+.two {
+order:2;
+}
+.three{
+  order:3;
+}
+.four{
+  order:4;
+}
+#nav{
+  display: none;
+}
+.logo{
+  margin: auto;
+order:3;
+}
+.five  a{
+   display:block;
+   order:1;
+}
+}
+/*-----------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width:630px){
+
+  #head{height: 52px;
+  }
+
+}
+/*-----------------------*/
+@media screen and (max-width:630px){
+  #finish{
+    padding:10px 0px 10px 0px;
+  }
+}
+/*-----------------------*/
+
+@media screen and (max-width:372px){
+  header{
+    width:350px;
+  }
+  #head{
+    width:350px;
+  }
+  #second{
+    width: 350px;
+  }
+}
+/*-----------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width:770px){
+
+    #second{background-image: none;
+      display: flex;
+      flex-direction: column;}
+
+      #pic{
+        display: block;
+        height: 450px;
+        width: 100%;
+      }
+      #pic img{
+        width:100%;
+        height: 450px;
+      }
+      #Flexible{
+        background-color: #efecec;
+        align-items: center;
+        align-content: center;
+        display: flex;
+        flex-direction: column;
+      }
+#paragraph1{
+  display: none;
+}
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width:770px){
+  #products{
+display: none;
+  }
+  #productsmedia{
+    display: block;
+    margin-top: 220px;
+  }
+  #productsmedia ul{
+    border: 1px solid red;
+    display:flex;
+    flex-direction: column;
+    margin: 0px;
+  list-style-type: none;
+    width: 90%;
+    height: 430px;
+  }
+  #productsmedia ul li a div{
+    display: inline;
+
+    font-weight: 600;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color:#950c17;
+font-size: 19px;
+  }
+  #productsmedia ul li a{
+    display:inline-block;
+    text-decoration: none;
+    width: 75%;
+
+    padding: 0px;
+
+  }
+  #productsmedia ul li a img{
+    margin-top:7%;
+    margin-left:0;
+    width: 30px;
+    height: 30px;
+  }
+
+
+  #productsmedia ul li a:hover{
+    text-decoration:underline #950c17;
+  }
+}
+/*-------------------------------------------------------------------------------------------------------------------------*/
