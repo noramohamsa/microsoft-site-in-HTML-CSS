@@ -150,5 +150,19 @@ font-size: 19px;
   #productsmedia ul li a:hover{
     text-decoration:underline #950c17;
   }
+
+  #peec #p2,#peec2 #p3{
+  width:0;
+  }
+  #lastdiv{
+ width: 0;
+ margin-left:0;
+  }
+  #last{
+    flex-direction: column;
+  }
+  #lastnav{
+    margin-left: 0;
+  }
 }
 /*-------------------------------------------------------------------------------------------------------------------------*/
